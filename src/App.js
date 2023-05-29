@@ -1,4 +1,4 @@
-import CategoryMenu from "./components/DirectoryContainer/DirectoryContainer.component";
+import DirectoryContainer from "./components/DirectoryContainer/DirectoryContainer.component";
 
 const categories = [
   {
@@ -34,7 +34,7 @@ const categories = [
 ];
 
 const App = () => {
-  return <CategoryMenu categories={categories} />;
+  return <DirectoryContainer categories={categories} />;
 };
 
 export default App;
